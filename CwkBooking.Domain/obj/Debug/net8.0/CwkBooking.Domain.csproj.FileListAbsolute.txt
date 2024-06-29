@@ -1,0 +1,11 @@
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/bin/Debug/net8.0/CwkBooking.Domain.deps.json
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/bin/Debug/net8.0/CwkBooking.Domain.dll
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/bin/Debug/net8.0/CwkBooking.Domain.pdb
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/CwkBooking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/CwkBooking.Domain.AssemblyInfoInputs.cache
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/CwkBooking.Domain.AssemblyInfo.cs
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/CwkBooking.Domain.csproj.CoreCompileInputs.cache
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/CwkBooking.Domain.dll
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/refint/CwkBooking.Domain.dll
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/CwkBooking.Domain.pdb
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/ref/CwkBooking.Domain.dll
