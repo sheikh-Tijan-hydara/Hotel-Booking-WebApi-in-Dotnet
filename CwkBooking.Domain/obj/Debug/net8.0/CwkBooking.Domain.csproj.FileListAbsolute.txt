@@ -9,3 +9,4 @@
 /home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/refint/CwkBooking.Domain.dll
 /home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/CwkBooking.Domain.pdb
 /home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/ref/CwkBooking.Domain.dll
+/home/brain/C# Projects/CwkBooking/CwkBooking.Domain/obj/Debug/net8.0/CwkBooking.Domain.sourcelink.json

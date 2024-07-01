@@ -33,3 +33,4 @@
 /home/brain/C# Projects/CwkBooking/CwkBooking.Api/obj/Debug/net8.0/ref/CwkBooking.Api.dll
 /home/brain/C# Projects/CwkBooking/CwkBooking.Api/bin/Debug/net8.0/CwkBooking.Domain.dll
 /home/brain/C# Projects/CwkBooking/CwkBooking.Api/bin/Debug/net8.0/CwkBooking.Domain.pdb
+/home/brain/C# Projects/CwkBooking/CwkBooking.Api/obj/Debug/net8.0/CwkBooking.Api.sourcelink.json
