@@ -1,11 +1,10 @@
-using CwkBooking.Api.Services.Abstractions;
+﻿using CwkBooking.Api.Services.Abstractions;
 using System;
 
-namespace CwkBooking.Api.Services;
- public class SingletonOperation : ISingletonOperation
- {
-    public Guid GetGuid()
+namespace CwkBooking.Api.Services
+{
+    public class SingletonOperation : ISingletonOperation
     {
-        return GetGuid.NewGuid()
+        public Guid Guid { get; set; } = Guid.NewGuid();
     }
- }
+}

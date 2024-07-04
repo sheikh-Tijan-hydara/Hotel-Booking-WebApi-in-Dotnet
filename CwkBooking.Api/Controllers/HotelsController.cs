@@ -1,4 +1,6 @@
-﻿using CwkBooking.Domain.Models;
+﻿﻿using CwkBooking.Api.Services;
+using CwkBooking.Api.Services.Abstractions;
+using CwkBooking.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -14,15 +16,28 @@ namespace CwkBooking.Api.Controllers
     public class HotelsController : Controller //inherits from Controller to make our class a controller
     {
         private readonly DataSource _dataSource;
-        public HotelsController(DataSource dataSource)
+        private readonly ISingletonOperation _singleton;
+        private readonly ITransientOperation _transient;
+        private readonly IScopedOperation _scoped;
+        private readonly ILogger<HotelsController> _logger;
+        public HotelsController(DataSource dataSource, ISingletonOperation singleton,
+            ITransientOperation transient, IScopedOperation scoped, ILogger<HotelsController> logger)
         {
             _dataSource = dataSource;
+            _singleton = singleton;
+            _transient = transient;
+            _scoped = scoped;
+            _logger = logger; 
         }
 
         // will execute if the request is a get request to /api/hotels
         [HttpGet]
         public IActionResult GetAllHotels()
         {
+            _logger.LogInformation($"GUID of singleton: {_singleton.Guid}");
+            _logger.LogInformation($"GUID of transient: {_transient.Guid}");
+            _logger.LogInformation($"GUID of scoped: {_scoped.Guid}");
+
             var HotelsList = _dataSource.Hotels;
             return Ok(HotelsList);
         }

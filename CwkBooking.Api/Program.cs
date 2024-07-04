@@ -1,4 +1,6 @@
 using CwkBooking.Api;
+using CwkBooking.Api.Services;
+using CwkBooking.Api.Services.Abstractions;
 
 var builder = WebApplication.CreateBuilder(args);
 {
@@ -7,6 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
     builder.Services.AddSingleton<DataSource>();
+    builder.Services.AddSingleton<ISingletonOperation, SingletonOperation>();
+    builder.Services.AddTransient<ITransientOperation , TransientOperation>();
+    builder.Services.AddScoped<IScopedOperation, ScopedOperation>();
 }
 var app = builder.Build();
 {

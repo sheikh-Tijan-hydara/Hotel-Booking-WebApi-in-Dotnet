@@ -1,8 +1,9 @@
-using System;
+﻿using System;
 
-namespace CwkBooking.Api.Services.Abstraction;
-
-public interface IScopedOperation
+namespace CwkBooking.Api.Services.Abstractions
 {
-    Guid GetGuid();
+    public interface IOperation
+    {
+        Guid Guid { get; set; }
+    }
 }
